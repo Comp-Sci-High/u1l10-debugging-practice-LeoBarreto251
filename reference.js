@@ -10,37 +10,37 @@
 
 
 
-// console.log(lesson)
-// const lesson = "U1L9";
+const lesson = "U1L9";
+console.log(lesson)
 
 
-
-
-// const activity = "practice";
-// console.log(actrivity)
-
-
-
-
-// function greet(name) {
-//     console.log("Hello " + name);
-// }
-// console.log(freet("Cesar"))
+const activity = "practice";
+console.log(activity)
 
 
 
 
 
-// function car() {
-//     let model = "Tesla";
-    
-//     if (model === "Tesla") {
-//         let year = 2021;
-//     } else {
-//         let year = 2024;
-//     }
 
-//     return year
-// }
+function greet(name) {
+    console.log("Hello " + name);
+}
+greet("Cesar")
 
-// car();
+
+
+
+
+function car() {
+    let model = "Tesla";
+    let year = "" 
+    if (model === "Tesla") {
+         year = 2021;
+    } else {
+         year = 2024;
+    }
+
+    return year
+}
+
+console.log(car());
