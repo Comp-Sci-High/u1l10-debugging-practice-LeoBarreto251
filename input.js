@@ -9,20 +9,20 @@
 // Input Errors
 
 
- function calculateTotal(price, quantity) {
-     return price * quantity;
+ function calculateTotal(price, quantity, discount) {
+     return price * quantity - discount;
  }
 
 
 
 
- let totalCost = calculateTotal(10, 2); 
+ let totalCost = calculateTotal(10, 2,10); 
  console.log(totalCost)
 
 
 
 
- let totalCost2 = calculateTotal(2, 5); 
+ let totalCost2 = calculateTotal(10,2, 5); 
  console.log(totalCost2)
 
 
